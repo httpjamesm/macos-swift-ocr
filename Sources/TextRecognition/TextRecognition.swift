@@ -54,7 +54,7 @@ public func recognizeText(imagePath: SRString) -> SRString? {
     }
     
     // Configure the request
-    request.recognitionLevel = .accurate
+    request.recognitionLevel = .fast
     request.recognitionLanguages = ["en-US"] // Add more languages if needed
     request.usesLanguageCorrection = true
     
